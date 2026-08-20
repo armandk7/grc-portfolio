@@ -1,87 +1,48 @@
-# ISO 27001 GRC Simulation
+# ISO 27001 GRC Simulation Portfolio
 
-## Project Overview
+## Overview
+This repository contains a **simulated Governance, Risk, and Compliance (GRC) project** based on an ISO/IEC 27001-style Information Security Management System (ISMS).
 
-This project simulates a Governance, Risk, and Compliance (GRC) engagement based on an ISO/IEC 27001-style Information Security Management System (ISMS).
+It demonstrates risk assessment, risk treatment, policy development, internal audit, evidence review, corrective action tracking, Statement of Applicability (SoA), gap assessment, business continuity, disaster recovery, and management review.
 
-The project demonstrates practical activities including risk assessment, risk treatment, security policy development, internal audit, control assessment, findings, corrective actions, Statement of Applicability (SoA), gap assessment, business continuity, disaster recovery, and management review.
-
-> **Disclaimer:** This is a fictional simulation created for learning and portfolio purposes. It does not represent a real ISO 27001 certification, audit engagement, or professional implementation.
+> **Disclaimer:** This is a fictional simulation created for learning and portfolio purposes. It is not a real ISO 27001 certification, audit engagement, or production implementation.
 
 ## Fictional Organization
-
 **Organization:** PT Maju Jaya Digital
 
-## ISMS Scope
-
-The simulated ISMS covers:
-
+**ISMS Scope**
 - HR application
 - HR database
 - Cloud infrastructure
 - IT team responsible for managing the environment
 
-## Key Activities
+## Project Objectives
+- Identify and assess information security risks.
+- Define risk treatments and controls.
+- Develop security policies and supporting documentation.
+- Perform a simulated internal audit.
+- Track findings and corrective actions.
+- Evaluate control implementation through evidence.
+- Conduct a simulated management review.
+- Demonstrate continual improvement.
 
-### Risk Management
-- Identified and assessed information security risks
-- Created a Risk Register
-- Assigned risk owners
-- Defined risk treatments and security controls
+## GRC Workflow
+`Risk → Control → Implementation → Evidence → Audit/Testing → Finding/Gap → Corrective Action → Verification → Closure`
 
-### Policy & Controls
-- Developed Password & Access Control Policy
-- Defined roles and responsibilities
-- Established security requirements and enforcement
+## Key Outcomes
+- 5 information security risks identified and documented.
+- Password and Access Control policies developed.
+- 4 audit requirements tested.
+- 2 requirements compliant.
+- 2 findings identified.
+- A-03 (High) remediated and closed.
+- A-04 (Medium) remains open pending security-awareness evidence.
+- MFA: Implemented.
+- RBAC: Partially Implemented.
+- Backup: Partially Implemented.
+- Quarterly access review and backup restore testing identified as improvement actions.
 
-### Internal Audit
-- Performed a simulated internal audit
-- Reviewed evidence and control implementation
-- Identified audit findings
-- Assigned severity and corrective actions
-
-### Corrective Action
-- Created CAPA tracking
-- Verified remediation evidence
-- Closed findings after successful verification
-
-### ISO 27001 / ISMS Assessment
-- Reviewed ISMS context and scope
-- Performed simulated Statement of Applicability assessment
-- Conducted gap assessment
-- Developed risk treatment plans
-
-### Business Continuity & Recovery
-- Reviewed Business Continuity concepts
-- Developed a simulated Disaster Recovery strategy
-- Defined backup and restore testing requirements
-
-### Management Review
-- Reviewed audit results
-- Reviewed risk and control status
-- Documented management decisions and improvement actions
-
-## Project Workflow
-
-Risk → Control → Implementation → Evidence → Audit → Finding → Corrective Action → Verification → Closure
-
-## Skills Demonstrated
-
-- Information Security Risk Assessment
-- Risk Register Management
-- Security Policy Development
-- Internal Audit
-- Evidence Review
-- Control Assessment
-- CAPA / Remediation Tracking
-- ISO 27001 / ISMS Concepts
-- Statement of Applicability
-- Gap Assessment
-- Business Continuity & Disaster Recovery
-- Management Review
-
-## Project Structure
-
+## Repository Structure
 - `01-ISMS-Scope/`
 - `02-Risk-Assessment/`
 - `03-Risk-Register/`
@@ -95,3 +56,13 @@ Risk → Control → Implementation → Evidence → Audit → Finding → Corre
 - `11-BCP-DRP/`
 - `12-Management-Review/`
 - `13-Final-ISMS-Summary/`
+
+## Skills Demonstrated
+Governance, risk management, compliance, internal audit, control testing, evidence review, CAPA, security controls, business continuity, and disaster recovery.
+
+## Portfolio Positioning
+Suitable as a learning portfolio for Junior GRC Analyst, Security Compliance Analyst, IT Risk Analyst, Cybersecurity GRC Analyst, and Security Assurance Analyst roles.
+
+## Portfolio File Formats
+
+Formal narrative documents are provided as PDF for easier recruiter review. Spreadsheet-based working papers remain in XLSX format.
